@@ -1,6 +1,6 @@
 avalanche:
   image: avaplatform/avalanchego
-  container_name: avalanche
+  container_name: "rpc-avalanche"
   #command: ["daemon", "--migrate=true", "--enable-pubsub-experiment"]
   command:
     [
