@@ -9,6 +9,8 @@ services:
       [
         "/avalanchego/build/avalanchego",
         "--db-dir=/data",
+        "--bootstrap-ancestors-max-containers-received=10000",
+        "--index-enabled=true",
       ]
     ports:
       - 127.0.0.1:33650:9650
