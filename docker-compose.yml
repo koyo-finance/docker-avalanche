@@ -9,7 +9,6 @@ services:
       [
         "/avalanchego/build/avalanchego",
         "--db-dir=/data",
-        "--bootstrap-retry-max-attempts=10000",
       ]
     ports:
       - 127.0.0.1:33650:9650
